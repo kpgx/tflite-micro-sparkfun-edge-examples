@@ -15,3 +15,6 @@ Sparkfun Edge + TFLM integration.
 | Build (Linux) | [![CI](https://github.com/advaitjain/tflite-micro-sparkfun-edge-examples/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/advaitjain/tflite-micro-sparkfun-edge-examples/actions/workflows/ci.yml)
 | Sync from tflite-micro | [![Sync from tflite-micro](https://github.com/advaitjain/tflite-micro-sparkfun-edge-examples/actions/workflows/sync.yml/badge.svg)](https://github.com/advaitjain/tflite-micro-sparkfun-edge-examples/actions/workflows/sync.yml)
 
+`make -f Makefile TARGET=sparkfun_edge person_detection`
+
+`make -f Makefile TARGET=sparkfun_edge micro_speech`
